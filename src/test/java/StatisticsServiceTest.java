@@ -14,6 +14,7 @@ public class StatisticsServiceTest {
         Assertions.assertEquals(expected, actual);
     }
 
+    @Test
     void searchAvgRealIncome() {
         StatisticsService service = new StatisticsService();
 
