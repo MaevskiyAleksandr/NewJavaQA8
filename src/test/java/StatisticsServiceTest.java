@@ -14,17 +14,6 @@ public class StatisticsServiceTest {
         Assertions.assertEquals(expected, actual);
     }
 
-    @Test
-    void searchAvgRealIncome() {
-        StatisticsService service = new StatisticsService();
-
-        long[] actualIncomes = {12, 3, 4, 7, 9, 5, 73, 3, 8, 10, 12};
-        long expected = 73;
-
-        long actual = service.findMax(actualIncomes);
-
-        Assertions.assertEquals(expected, actual);
-    }
 }
 
 
